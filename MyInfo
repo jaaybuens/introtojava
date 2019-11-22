@@ -1,0 +1,29 @@
+//Create one more more method(s) that pass the following information about you and prints it when called.
+//Full name, middle initial, age, major, and GPA.
+
+public class MyInfo
+{
+public static void main(String[] args) {
+
+double gpa = 3.5;
+String name = "Jazmin Mae Bueno";
+int age = 22;
+String major = "Computer Science";
+
+printVal(name, gpa, age, major); // METHOD CALL WITH ACTUAL PARAMETERS
+}
+public static void printVal(String nickname, double gpa, int age, String major) // METHOD HEADER WITH FORMAL PARAMETERS 
+{
+System.out.println(nickname);
+displayInitial('P'); //method call passing actual parameter
+System.out.println(age);
+System.out.println(major);
+System.out.println(gpa);
+}
+
+public static void displayInitial(char mInitial)
+{
+System.out.println("My middle initial is " + mInitial);
+
+}
+}
