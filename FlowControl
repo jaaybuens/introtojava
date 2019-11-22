@@ -1,0 +1,38 @@
+//Create three additional methods. Each method will print a different “song name”, (indented) a verse, and artist name.
+//The first method should print your favorite verse, song name and artist of your choice.
+//The second method should print another favorite verse, song name and artist of your choice.
+//The third method should print a third favorite verse, song name and artist of your choice.
+
+public class FlowControl
+{public static void main (String[]args)
+
+{
+
+sugar();//1st Song
+System.out.println();
+
+openArms();//2nd Song
+System.out.println();
+
+
+easy();//3rd Song
+
+
+}
+public static void sugar ()
+{
+System.out.println("\"Sugar\" \tShould divine intervention move itself? It's hard to tell what do prayer compel.- by Brockhampton");
+}
+
+public static void openArms ()
+
+{System.out.println(" \"Open Arms\" \tYou could tear me apart but I can't help it I'm waiting, here with open arms.- by PrettyMuch");
+
+}
+
+public static void easy ()
+
+{System.out.println("\"Easy\"\tI would rather hold you close than try to understand.- by Mac Ayres");
+
+}
+}
