@@ -1,0 +1,34 @@
+//Modified MaxSentinel code. Check for valid first entry, allow user to enter as many numbers as desired.
+//If invalid number entered, print "Invalid entry" and prompt user again until a valid number is entered.
+//Once -1 is entered, program stops and prints largest value.
+
+public class MaxSentinel2
+{
+public static void main(String[] args)
+{
+int sentinel = -1;
+
+System.out.print("Type a number to display maximum value (" + sentinel + " to stop):");
+Scanner console = new Scanner(System.in);
+int max = console.nextInt();
+int num = max;
+
+while (num != sentinel) {
+
+if(!console.hasNextInt()) {
+System.out.println("Invalid entry. Please enter a valid number.");
+console.next();
+}
+
+else if(num > max){
+max = num;
+
+}
+System.out.print("Type a number (" + sentinel + " to stop); ");
+num = console.nextInt();
+
+}
+System.out.println("Maximum was " + max);
+
+}
+}
