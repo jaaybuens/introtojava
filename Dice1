@@ -1,0 +1,20 @@
+//Prompts user to enter number between 1 and 6, uses a while loop to generate a random integer until that number is generated
+
+public class Dice1
+{
+    public static void main(String[] args)
+    {
+     Random rand = new Random();
+     Scanner input = new Scanner(System.in);
+     System.out.println("Enter a value between 1-6");
+     int val = input.nextInt();//initialization
+     int a = -1;//dummy value.
+     
+     while(a != val)//test
+     {
+      a = rand.nextInt(6) + 2;//update generates random numbers between 1-6
+      System.out.print(a + " ");
+        }
+      System.out.println();   
+    }
+}
