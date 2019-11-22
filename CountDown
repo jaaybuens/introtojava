@@ -1,0 +1,19 @@
+//Print "This is a countdown!" in quotation marks.
+//Use a for loop to countdown from 25.
+//Print the numbers & "Blast Off!" in quotation marks once the count down ends.
+
+public class Countdown
+{
+public static void main(String[] args)
+{//Definite Loop - for Loops
+//Countdown from 25
+System.out.println("\"This is a countdown!\"");
+
+for (int i = 25; i>= 1; i--){
+System.out.println(i);
+
+}
+System.out.println("Blast off!");
+
+}
+}
