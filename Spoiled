@@ -1,0 +1,39 @@
+//Create a method called SpoilTest that returns a boolean.
+//Prompt the user to enter how many siblings he/she has. 
+//If user entered, 0 program should return fales and print "You are spoiled!"
+//If user entered a value > 0, program should return true and print: "You are not spoiled!"
+
+public class Spoiled
+{
+
+public static void main(String[] args)
+{
+Scanner input = new Scanner(System.in);
+System.out.println("Enter how many siblings you have.");
+int sib = input.nextInt();
+//boolean sibling = spoilTest(sib);
+
+if(spoilTest(sib))
+{
+System.out.println("You are spoiled!");
+}
+else
+{
+System.out.println("You are not spoiled!"); 
+}
+spoilTest(sib);
+
+}
+public static boolean spoilTest(int a)
+{ 
+if(a==0)
+{
+return true; 
+}
+else
+{
+return false; 
+}
+
+}
+}
