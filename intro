@@ -1,0 +1,13 @@
+//Write statements that will output:
+Hello, “put your name here”, and the sentence “I am grateful for .....(fill in your response)”.
+Output should print on two separate lines, gratitude statement and name should be in quotation marks.
+
+public class Intro
+{
+public static void main (String [] arg)
+
+{System.out.println("Hello, \"Jazmin\",");
+System.out.println();
+System.out.print("\"I am grateful for...education\".");
+} 
+}
