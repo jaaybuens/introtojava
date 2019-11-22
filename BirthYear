@@ -1,0 +1,17 @@
+//Create a method called CalculateAge that will determine the person's age based on the current year,
+their actual birth year, and return their age.
+
+public class BirthYear
+{
+public static void main(String[] args) {
+
+System.out.println("You are (or will be) " + calculateAge(2019, 1996));
+
+}
+
+public static int calculateAge(int a, int b)
+{
+return a - b ;
+}
+
+}
