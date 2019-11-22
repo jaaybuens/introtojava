@@ -1,0 +1,33 @@
+//Use a sentinel while loop that repeatedly prompts the user to enter a number
+//Once -1 is entered, stop prompting for numbers and display the maximum number entered by the user
+
+public class MaxSentinel
+{
+public static void main(String[] args)
+{
+int sentinel = -1;
+
+System.out.print("Type a number to display maximum value (" + sentinel + " to stop):");
+Scanner console = new Scanner(System.in);
+int max = console.nextInt();
+int num = max;
+
+while (num != sentinel) {
+
+if (num > max) {
+max = num;
+
+
+
+}
+System.out.print("Type a number (" + sentinel + " to stop); ");
+num = console.nextInt();
+
+ 
+
+}
+System.out.println("Maximum was " + max);
+
+
+} 
+}
